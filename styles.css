@@ -23,12 +23,11 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font: 1.8em anton,sans-serif;
+  font: 2rem anton,sans-serif;
   /*transition: color 0.4s;*/
   font-weight: bold;
   vertical-align: center;
   line-height: 7vh;
-
 }
 
 /* Change the color of links on hover */
