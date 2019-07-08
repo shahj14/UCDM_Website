@@ -72,6 +72,7 @@ body{
   color: #fff;
   margin: 0;
   padding: 0;
+  text-align: center
 }
 #uc{
   font-size: 60px;
@@ -229,6 +230,71 @@ body{
   color: #E21C21;
   opacity: .9;
   margin: 0;
+}
+
+@media(max-width: 420px){
+  #navbar a {
+/*    float: left;
+    color: #E21C21;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;*/
+    font: 4rem anton,sans-serif;
+    /*transition: color 0.4s;*/
+    font-weight: 400;
+/*    vertical-align: center;
+    line-height: 7vh;*/
+  }
+  .button{
+/*    background-color: rgba(255, 255, 255, 0.8);
+    border: solid rgba(50,50,50,1) 0px;
+    cursor: pointer;*/
+  /*  height: 50px;
+    width: 200px;*/
+    padding: 30px 50px;
+/*    margin: 25px 5px;*/
+/*    text-decoration: none;
+    font-family:Arial,Helvetica;*/
+    font-size: 50px;
+/*    font-weight: bold;
+    color: #E21C21;
+    text-align: center;
+    border-radius: 4px;*/
+  }
+  #uc{
+    font-size: 90px;
+/*    font-family: 'Roboto Condensed';
+    letter-spacing: 3px;*/
+  }
+  #dm{
+    font-size: 130px;
+/*    font-family: Righteous,sans-serif;*/
+  }
+  #flame{
+    height: 15vh;
+/*    filter: hue-rotate(180deg) opacity(50%);
+*/  }
+
+  #about-message{
+    width: 80%;
+  }
+
+  #about-message h2{
+/*    font-family: Quicksand;
+    letter-spacing: 2px;*/
+    font-size: 80px;
+/*    text-align: center;
+    margin: 0;
+    color: #E21C21;*/
+    /*opacity: .9;*/
+  }
+
+  #about-message p{
+    /*font-family: Abel;*/
+    font-size: 45px;
+/*    color: #E21C21;
+    opacity: .9;*/
+  }
 }
 
 
